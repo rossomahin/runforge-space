@@ -32,13 +32,13 @@
 ## Установка
 
 ```bash
-npm install
+pnpm install
 ```
 
 ## Запуск в режиме разработки
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 После запуска приложение будет доступно по адресу, который выведет Vite в терминале.
@@ -48,20 +48,28 @@ npm run dev
 Проверка линтером:
 
 ```bash
-npm run lint
+pnpm run lint
 ```
 
 Production-сборка:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 Предпросмотр production-сборки:
 
 ```bash
-npm run preview
+pnpm run preview
 ```
+
+## Тесты
+
+```bash
+pnpm run test
+```
+
+Покрыты три сценария: фильтрация по статусу, поиск по названию, открытие деталей запуска.
 
 ## Структура проекта
 
