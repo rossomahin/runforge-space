@@ -98,3 +98,6 @@ src/
 
 Загрузка вынесена в `src/data/runsService.ts`, поэтому mock-сервис можно заменить
 на реальный API без изменения компонентов списка и деталей.
+
+## Ссылка на Vercel
+https://runforge-space.vercel.app
